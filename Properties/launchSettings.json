@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "OpenJKLoader": {
+      "commandName": "Project",
+      "commandLineArgs": "+set fs_game MBII +exec server.cfg",
+      "workingDirectory": "C:\\Star Wars Jedi Knight - Jedi Academy\\GameData",
+      "nativeDebugging": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      }
+    }
+  }
+}
